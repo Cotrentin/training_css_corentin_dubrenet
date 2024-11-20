@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+
+        .left-section, .right-section {
+            width: 100%;
+            text-align: center;
+        }
+
+        .diamond-container {
+            max-width: 200px;
+
+            .choixpeau {
+                max-width: 150px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-header ul {
+        flex-direction: column;
+
+        li {
+            padding: 10px;
+        }
+    }
+
+    .diamond-container {
+        max-width: 150px;
+
+        .choixpeau {
+            max-width: 100px;
+        }
+    }
+}
+
+
+
